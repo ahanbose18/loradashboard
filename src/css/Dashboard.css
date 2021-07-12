@@ -8,17 +8,40 @@
 .nav{
   width: 100%;
   background-color: #2b2e4a;
+  
+}
+
+.nav-head{
+  display: flex;
+  justify-content: space-between;
+  
 }
 
 .container{
-  margin: 20px;
-  
-  
+  margin: 20px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   text-align: center;
 }
 
+.card-title{
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.rssi-title{
+  color: #DA0037;
+}
+
+.snr-title{
+  color: #66DE93;
+}
+
+
 .row{
   display: flex;
+  align-items: flex-end;
 }
 
 .col{
@@ -36,6 +59,37 @@
   0 41.8px 33.4px rgba(0, 0, 0, 0.086),
   0 100px 80px rgba(0, 0, 0, 0.12);
   border-radius: 5%;
-  background: #ffff;
+  background: #0A1931;
+  color: #fff;
   margin: 10px 10px auto;
+  font-size: 1.5rem;
+}
+
+
+
+.sub-header{
+  font-size: 3rem;
+  padding: 10px;
+  border-bottom: 3px solid #FCDAB7;
+  margin: 15px auto;
+}
+
+.header{
+  text-align: center;
+  width: 100%;
+  margin: 0px;
+}
+
+.map-container{
+  height: 400px;
+}
+
+.sfbw{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.networkparams{
+
 }

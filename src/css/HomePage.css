@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+*{
+  box-sizing: border-box;
+}
+
+body{
+  
+ 
+}
+
+.containbody{
+  width: 100%;
+  background-image: url("https://images.unsplash.com/photo-1605289982774-9a6fef564df8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmFjY2luZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60") no-repeat;
+}
+
+.header{
+  margin: 0px auto;
+  padding: 0px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+
+
+
+  font-family: 'Baloo Tammudu 2', cursive;
+  
+}
+
+
+.header .text h2{
+  text-align: center;
+  background-color: #071E3D;
+  color: #21E6C1;
+  font-size: 4rem;
+  margin: 20px auto; 
+  padding: 15px;
+  width: 100%; 
+  border-radius: 15px;
+}
+
+.links button{
+  margin: 20px;
+  padding: 10px;
+}
+
+
+.subtext{
+  font-size: 2.5rem;
+  padding: 10px 5px auto;
+  margin-top: 5px auto;
+  border-bottom: 2px solid #1F4287;
+  color: #E41F7B;
+}
+
+
+.logo-container{
+  text-align: center;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo{
+height: 150px;
+text-align: center;
+margin: 10px auto;
+fill: #946b75;
+}
+
+.vaccinecheck{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+ 
+}
+
+
+
+.imgcontainer{
+  background-image: url("https://images.unsplash.com/photo-1605289982774-9a6fef564df8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dmFjY2luZXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60");
+  
+
+}
